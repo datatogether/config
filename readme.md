@@ -1,6 +1,6 @@
 # config
 --
-    import "github.com/archivers-space/config"
+    import "github.com/datatogether/config"
 
 config is hassle-free config struct setting. setting things like
 configStruct.StringField to the value of the enviornment variable STRING_FIELD.
