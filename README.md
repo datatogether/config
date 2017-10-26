@@ -55,6 +55,10 @@ here because setting config happens seldom in the course of a running program,
 and these days if you're parsing JSON, the reflect package is already included
 in your binary.
 
+Technical documentation can be built with `godoc .` or, if your `$GOPATH` and 
+repo structure is set up correctly, with something like `godoc -http=:6060 &` 
+followed by browsing to http://localhost:6060/pkg/github.com/datatogether.
+
 ## Development
 
 Coming soon.
